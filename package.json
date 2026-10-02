@@ -1,0 +1,28 @@
+{
+  "name": "smart-marriage-certificate-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Marriage Certificate System - Full-stack application with frontend and backend",
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start:backend": "npm start --prefix backend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "keywords": [
+    "marriage-certificate",
+    "react",
+    "vite",
+    "express",
+    "government-portal",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
